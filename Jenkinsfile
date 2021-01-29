@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "docker build -t vuejs-cookbook/dockerize-vuejs-app ."
+                sh "test"
             }
         }
         stage('Test') {
